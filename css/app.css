@@ -10,3 +10,7 @@
   top: 32vh;
   right: 14vw;
 }
+
+.navigation__container {
+  height: 20vh;
+}
