@@ -1,0 +1,12 @@
+.large-article-header {
+  background: url("https://unsplash.it/1920/520/") no-repeat center;
+  background-size: cover;
+  height: 40vh;
+  position: relative;
+}
+
+.navigation__dots--position {
+  position: absolute;
+  top: 32vh;
+  right: 14vw;
+}

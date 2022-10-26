@@ -12,9 +12,9 @@
   </head>
 
   <body>
-    <div class="grid-container">
-      <header>
-        <div class="grid-x">
+    <div class="grid-container full">
+      <header class="grid-container">
+        <div class="grid-x" id="LOGO">
           <div class="small-8 large-12 grid-padding-y align-left">
             <div class="large-12 cell">
               <h1>Logo Opticron</h1>
@@ -71,11 +71,76 @@
       </header>
 
       <main>
-        <section><div class="grid-x grid-padding-x"></div></section>
-        <section><div class="grid-x grid-padding-x"></div></section>
-        <section><div class="grid-x grid-padding-x"></div></section>
+        <section class="large-article-header">
+          <nav class="orbit-bullets navigation__dots--position">
+            <button class="is-active" data-slide="0">
+              <span class="show-for-sr">First slide details.</span>
+              <span class="show-for-sr" data-slide-active-label
+                >Current Slide</span
+              >
+            </button>
+            <button data-slide="1">
+              <span class="show-for-sr">Second slide details.</span>
+            </button>
+            <button data-slide="2">
+              <span class="show-for-sr">Third slide details.</span>
+            </button>
+            <button data-slide="3">
+              <span class="show-for-sr">Fourth slide details.</span>
+            </button>
+          </nav>
+        </section>
+        <section class="grid-container">
+          <article class="grid-x grid-padding-x">
+            <div class="card large-3 medium-6 small-12 cell">
+              <div class="card-divider">This is a header</div>
+              <img src="https://api.lorem.space/image/car?w=400&h=300" />
+              <div class="card-section">
+                <h5>
+                  It has an easy to override visual style, and is appropriately
+                  subdued.
+                </h5>
+                <button class="submit success button">Read Article</button>
+              </div>
+            </div>
+            <div class="card large-3 medium-6 small-12 cell">
+              <div class="card-divider">
+                <h4>I'm featured</h4>
+              </div>
+              <img src="https://api.lorem.space/image/car?w=400&h=300" />
+              <div class="card-section">
+                <h5>This card makes use of the card-divider element.</h5>
+                <button class="submit success button">Read Article</button>
+              </div>
+            </div>
+            <div class="card large-3 medium-6 small-12 cell">
+              <div class="card-divider">This is a header</div>
+              <img src="https://api.lorem.space/image/car?w=400&h=300" />
+              <div class="card-section">
+                <h5>
+                  It has an easy to override visual style, and is appropriately
+                  subdued.
+                </h5>
+                <button class="submit success button">Read Article</button>
+              </div>
+            </div>
+            <div class="card large-3 medium-6 small-12 cell">
+              <div class="card-divider">
+                <h4>I'm featured</h4>
+              </div>
+              <img src="https://api.lorem.space/image/car?w=400&h=300" />
+              <div class="card-section">
+                <h5>This card makes use of the card-divider element.</h5>
+                <button class="submit success button">Read Article</button>
+              </div>
+            </div>
+          </article>
+          <article><div class="grid-x grid-padding-x"></div></article>
+          <article><div class="grid-x grid-padding-x"></div></article>
+        </section>
       </main>
-      <footer>
+
+      <footer class="grid-container">
         <div class="grid-x grid-padding-x"></div>
       </footer>
     </div>

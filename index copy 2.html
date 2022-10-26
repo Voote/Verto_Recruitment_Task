@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="author" content="Jakub Krzywanski" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/foundation-icons.css" />
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <header>
+        <div class="grid-x">
+          <div class="small-8 large-12 grid-padding-y align-left">
+            <div class="large-12 cell">
+              <h1>Logo Opticron</h1>
+            </div>
+          </div>
+
+          <div class="small-4 large-12 align-right">
+            <div
+              class="title-bar"
+              data-responsive-toggle="responsive-menu"
+              data-hide-for="large"
+            >
+              <button
+                class="button MOJA-edit-button-colors"
+                type="button"
+                data-toggle="responsive-menu"
+              >
+                <span class="show-for-sr">Hamburger Menu</span>
+                <span aria-hidden="true"
+                  >Menu <i class="fi-list size-16"></i
+                  ><i class="fi-list size-16"></i
+                ></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <nav class="grid-x grid-padding-y align-right">
+          <div class="top-bar large-9" id="responsive-menu">
+            <div class="top-bar-left">
+              <ul class="vertical large-horizontal menu">
+                <li><a href="#">Our Products</a></li>
+                <li><a href="#">Where To Buy</a></li>
+                <li><a href="#">News & Reviews</a></li>
+                <li><a href="#">Help & Support</a></li>
+                <li><a href="#">My Opticron</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="top-bar-right large-3 MOJA-search-bar__margin-i-padding">
+            <ul class="menu">
+              <li><input type="search" placeholder="My Opticron..." /></li>
+              <li>
+                <button type="button" class="button">
+                  <span class="show-for-sr">Search</span>
+                  <span aria-hidden="true"
+                    ><i class="fi-magnifying-glass size-16"></i
+                  ></span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section><div class="grid-x grid-padding-x"></div></section>
+        <section><div class="grid-x grid-padding-x"></div></section>
+        <section><div class="grid-x grid-padding-x"></div></section>
+      </main>
+      <footer>
+        <div class="grid-x grid-padding-x"></div>
+      </footer>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
