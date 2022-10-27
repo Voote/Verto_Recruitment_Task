@@ -307,6 +307,7 @@ textarea {
 }
 .size-16 {
   font-size: 16px;
+  letter-spacing: -0.2px;
 }
 .size-18 {
   font-size: 18px;
@@ -3600,7 +3601,7 @@ code,
 .button.secondary[disabled]:hover,
 .button.secondary.disabled:focus,
 .button.secondary[disabled]:focus {
-  background-color: #767676;
+  background-color: #929596;
   color: #fefefe;
 }
 .button.secondary:hover,
@@ -3615,8 +3616,8 @@ code,
 .button.success[disabled]:hover,
 .button.success.disabled:focus,
 .button.success[disabled]:focus {
-  background-color: #3adb76;
-  color: #0a0a0a;
+  background-color: #008542;
+  color: #fff;
 }
 .button.success:hover,
 .button.success:focus {

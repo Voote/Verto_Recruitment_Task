@@ -1,9 +1,10 @@
-.large-article-header {
-  background: url("./assets/Desktop_Cover.png") no-repeat center;
-  background-size: cover;
-  min-height: 20rem;
-  height: 40vh;
-  position: relative;
+body {
+  color: #737270;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 #banner {
@@ -12,16 +13,55 @@
   right: 10vw;
 }
 
+.large-article-header {
+  background: url("./assets/Desktop_Cover.png") no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 40vh;
+  min-height: 20rem;
+  margin-bottom: 2rem;
+}
+
+.title-bar {
+  background: inherit;
+}
+
+.card {
+  background: inherit;
+  border: none;
+}
+
+.button.clear.success {
+  color: #157539;
+}
+
+.grey-bg {
+  background-color: #e6e7e8;
+}
+
+.white-bg {
+  background-color: #fff;
+}
+
+.top-gap {
+  padding-top: 2rem;
+}
+
+.bottom-gap {
+  padding-bottom: 2rem;
+}
+
+.font--small {
+  font-size: 9pt;
+}
+
+.font--medium {
+  font-size: 14pt;
+  margin-block-start: -1rem;
+}
+
 .navigation__container {
   height: 20vh;
-}
-
-.font-color {
-  color: #87888b;
-}
-
-.button {
-  background-color: #008542;
 }
 
 .footer {
@@ -34,15 +74,7 @@
   background-color: inherit;
   max-width: 1280px;
   margin: auto;
-}
-
-.footer__font--small {
-  font-size: 9pt;
-}
-
-.footer__font--medium {
-  font-size: 14pt;
-  margin-block-start: -1rem;
+  padding: 2rem 10vw;
 }
 
 .image__orbit--1 {

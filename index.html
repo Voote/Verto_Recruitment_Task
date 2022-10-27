@@ -13,61 +13,63 @@
 
   <body>
     <div class="grid-container full">
-      <header class="grid-container">
-        <div class="grid-x" id="LOGO">
-          <div class="small-8 large-12 grid-padding-y align-left">
-            <div class="large-12 cell">
-              <h1>Logo Opticron</h1>
+      <div class="bg-color full">
+        <header class="grid-container">
+          <div class="grid-x" id="LOGO">
+            <div class="small-8 large-12 grid-padding-y align-left">
+              <div class="large-12 cell">
+                <h1>Logo Opticron</h1>
+              </div>
             </div>
-          </div>
 
-          <div class="small-4 large-12 align-right">
-            <div
-              class="title-bar"
-              data-responsive-toggle="responsive-menu"
-              data-hide-for="large"
-            >
-              <button
-                class="button MOJA-edit-button-colors"
-                type="button"
-                data-toggle="responsive-menu"
+            <div class="small-4 large-12 align-right">
+              <div
+                class="title-bar"
+                data-responsive-toggle="responsive-menu"
+                data-hide-for="large"
               >
-                <span class="show-for-sr">Hamburger Menu</span>
-                <span aria-hidden="true"
-                  >Menu <i class="fi-list size-16"></i
-                  ><i class="fi-list size-16"></i
-                ></span>
-              </button>
-            </div>
-          </div>
-        </div>
-        <nav class="grid-x grid-padding-y align-right">
-          <div class="top-bar large-9" id="responsive-menu">
-            <div class="top-bar-left">
-              <ul class="vertical large-horizontal menu">
-                <li><a href="#">Our Products</a></li>
-                <li><a href="#">Where To Buy</a></li>
-                <li><a href="#">News & Reviews</a></li>
-                <li><a href="#">Help & Support</a></li>
-                <li><a href="#">My Opticron</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="top-bar-right large-3 MOJA-search-bar__margin-i-padding">
-            <ul class="menu">
-              <li><input type="search" placeholder="My Opticron..." /></li>
-              <li>
-                <button type="button" class="button">
-                  <span class="show-for-sr">Search</span>
+                <button
+                  class="button clear success"
+                  type="button"
+                  data-toggle="responsive-menu"
+                >
+                  <span class="show-for-sr">Hamburger Menu</span>
                   <span aria-hidden="true"
-                    ><i class="fi-magnifying-glass size-16"></i
+                    >Menu <i class="fi-list size-16"></i
+                    ><i class="fi-list size-16"></i
                   ></span>
                 </button>
-              </li>
-            </ul>
+              </div>
+            </div>
           </div>
-        </nav>
-      </header>
+          <nav class="grid-x grid-padding-y align-right bottom-gap">
+            <div class="large-9" id="responsive-menu">
+              <div class="top-bar-left">
+                <ul class="vertical large-horizontal menu">
+                  <li><a href="#">Our Products</a></li>
+                  <li><a href="#">Where To Buy</a></li>
+                  <li><a href="#">News & Reviews</a></li>
+                  <li><a href="#">Help & Support</a></li>
+                  <li><a href="#">My Opticron</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="top-bar-right large-3">
+              <ul class="menu">
+                <li><input type="search" placeholder="My Opticron..." /></li>
+                <li>
+                  <button type="button" class="button secondary">
+                    <span class="show-for-sr">Search</span>
+                    <span aria-hidden="true"
+                      ><i class="fi-magnifying-glass size-16"></i
+                    ></span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+      </div>
 
       <section class="large-article-header">
         <div class="orbit-bullets" id="banner">
@@ -89,83 +91,90 @@
         </div>
       </section>
 
-      <main class="grid-container">
+      <main class="grid-container bottom-gap">
         <article class="grid-x grid-padding-x">
           <div class="card large-3 medium-6 small-12 cell">
-            <div class="card-divider">
-              <h3>New Product</h3>
-            </div>
+            <h3>New Products</h3>
             <img src="./css/assets/Desktop_Product.png" alt="Bird hunting" />
             <div class="card-section">
-              <h5>This card makes use of the card-divider element.</h5>
-              <button class="submit success button">Read Article</button>
+              <h6 class="footer__font--small">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </h6>
+              <button class="submit success button">New Products</button>
             </div>
           </div>
           <div class="card large-3 medium-6 small-12 cell">
-            <div class="card-divider">
-              <h3>Field Event</h3>
-            </div>
+            <h3>Field Events</h3>
             <img
               src="./css/assets/Desktop_Event.png"
               alt="Photographers photo"
             />
             <div class="card-section">
-              <h5>This card makes use of the card-divider element.</h5>
-              <button class="submit success button">Read Article</button>
+              <h6 class="footer__font--small">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </h6>
+              <button class="submit success button">View Events</button>
             </div>
           </div>
           <div class="card large-3 medium-6 small-12 cell">
-            <div class="card-divider">
-              <h3>Latest News</h3>
-            </div>
+            <h3>Latest News</h3>
             <img src="./css/assets/Desktop_News.png" alt="Mountains lake" />
             <div class="card-section">
-              <h5>This card makes use of the card-divider element.</h5>
+              <h6 class="footer__font--small">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </h6>
               <button class="submit success button">Read Article</button>
             </div>
           </div>
           <div class="card large-3 medium-6 small-12 cell">
-            <div class="card-divider">
-              <h3>Gallery</h3>
-            </div>
+            <h3>Gallery</h3>
             <img src="./css/assets/Desktop_Gallery.png" alt="Small bird" />
             <div class="card-section">
-              <h5>This card makes use of the card-divider element.</h5>
-              <button class="submit success button">Read Article</button>
+              <h6 class="footer__font--small">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </h6>
+              <button class="submit success button">View Gallery</button>
             </div>
           </div>
         </article>
         <article class="card-divider grid-y text-center">
-          <h3>Special Offers</h3>
+          <h3 class="top-gap bottom-gap">Special Offers</h3>
           <div class="grid-x grid-padding-x">
             <div class="card large-4 medium-12 cell">
               <img
                 src="./css/assets/Desktop_WPPC.png"
                 alt="Few £20 banknotes"
               />
-              <div class="card-section">
-                <h5>This card makes use of the card-divider element.</h5>
+              <div class="card-section white-bg">
+                <h6>Discovery WP PC</h6>
+                <h5 class="font--medium"><b>£20 Cashback</b></h5>
               </div>
             </div>
             <div class="card large-4 medium-12 cell">
               <img src="./css/assets/Desktop_HRED.png" alt="Camera screen" />
-              <div class="card-section">
-                <h5>This card makes use of the card-divider element.</h5>
+              <div class="card-section white-bg">
+                <h6>HR ED Fieldscopes</h6>
+                <h5 class="font--medium"><b>Free Digiscoping Kit</b></h5>
               </div>
             </div>
             <div class="card large-4 medium-12 cell">
               <img src="./css/assets/Desktop_IS60.png" alt="Opticon camera" />
-              <div class="card-section">
-                <h5>This card makes use of the card-divider element.</h5>
+              <div class="card-section white-bg">
+                <h6>IS 60 WP Fieldscope Kits</h6>
+                <h5 class="font--medium"><b>Save 25%</b></h5>
               </div>
             </div>
           </div>
-          <div class="button-group align-center">
+          <div class="button-group align-center top-gap bottom-gap">
             <button class="submit success button">View All Offers</button>
           </div>
         </article>
         <article
-          class="orbit"
+          class="orbit bottom-gap"
           role="region"
           aria-label="Favorite Space Pictures"
           data-orbit
@@ -229,17 +238,17 @@
 
       <footer class="footer row align-center">
         <div
-          class="column align-spaced card-divider footer__divider grid-x grid-padding-y"
+          class="column align-center card-divider footer__divider grid-x grid-padding-y"
         >
           <section class="small-12 large-7">
             <div id="adress">
-              <h6 class="footer__font--small">
+              <h6 class="font--small">
                 <b>Optricon</b> Unit 21, Titan Court, Laporte Way, Luton,
                 Bedfordshire, LU4 8EF, UK
               </h6>
             </div>
             <div id="sitemap">
-              <h6 class="footer__font--small">
+              <h6 class="font--small">
                 Site map / Terms / Privacy Policy / Site By Verto
               </h6>
             </div>
@@ -247,9 +256,7 @@
           <section class="small-12 large-5">
             <div id="contact">
               <h3>call <b>01582 726522</b></h3>
-              <h5 class="footer__font--medium">
-                email us sales@opticron.co.uk
-              </h5>
+              <h5 class="font--medium">email us sales@opticron.co.uk</h5>
             </div>
             <div id="social media"><h4>F | & | In | YT | G+</h4></div>
           </section>
