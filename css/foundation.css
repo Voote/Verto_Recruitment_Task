@@ -6698,13 +6698,13 @@ select:not([multiple]) {
   height: 1.2rem;
   margin: 0.1rem;
   border-radius: 50%;
-  background-color: #cacaca;
+  background-color: #fff;
 }
 .orbit-bullets button:hover {
-  background-color: #8a8a8a;
+  background-color: #006320;
 }
 .orbit-bullets button.is-active {
-  background-color: #8a8a8a;
+  background-color: #008542;
 }
 
 .pagination {

@@ -10,7 +10,7 @@ a {
 #banner {
   position: absolute;
   top: 84%;
-  right: 10vw;
+  right: 14vw;
 }
 
 .large-article-header {
@@ -51,6 +51,12 @@ a {
   padding-bottom: 2rem;
 }
 
+.icon-border {
+  padding-right: 0.7rem;
+  margin-right: 0.7rem;
+  border-right: 1px solid black;
+}
+
 .font--small {
   font-size: 9pt;
 }
@@ -58,6 +64,10 @@ a {
 .font--medium {
   font-size: 14pt;
   margin-block-start: -1rem;
+}
+
+.resonsive-input {
+  max-width: 30vw;
 }
 
 .navigation__container {
